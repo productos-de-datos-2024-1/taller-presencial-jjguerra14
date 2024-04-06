@@ -22,8 +22,9 @@
 #
 # Para lanzar el servidor se ejecuta:
 #
-# $ docker run --network=mynetwork --rm -it --name=api-server -p 5001:5000 -v "$PWD"/datalake:/datalake jdvelasq/api-server:0.1
-#
+# $ docker run --network=mynetwork --rm -it --name=api-server -p 5001:5000 -v "%cd%"/datalake:/datalake jjguerra14/api-server:0.1
+
+
 
 # Definición de la imagen base
 FROM python:3.9-alpine
